@@ -46,3 +46,90 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/* Make your sections visible */
+body {
+	background-color: LightGray;
+}
+div {
+	border: 1px solid Chocolate;
+}
+/* Overall style */
+body {
+	color: #838994;
+	font-size: 1em;
+	font-family: "roboto", sans-serif;
+	letter-spacing: 0.03em;
+	-webkit-font-smoothing: antialiased;
+}
+/* Sections */
+.top-nav {
+	background-color: white;
+}
+.content {
+	width: 960px;
+	height: 70px;
+	padding: 0 1em;
+	margin: 0 auto;
+}
+.logo {
+	height: 4.375em;
+}
+.nav-link {
+	float: right;
+	margin-top: 1.69em;
+}
+.nav-link > li {
+	display: inline-block;
+	margin-left: 2em;
+	list-style: none;
+}
+.nav-link > .active {
+	color: #4c5058;
+	font-weight: 600;
+}
+.nav-link li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+.intro {
+	background-image: url('http://thinkful-ed.github.io/karma-clone/img/first-background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center bottom;
+	height: 24em;
+	padding-top: 12em;
+}
+.intro > h1,
+.intro > h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+.intro > h1 {
+	font-size: 3em;
+}
+.intro > h3 {
+	margin-top: 1em;
+	font-size: 1.563em;
+}
+.cta {
+	display: block;
+	margin: 2em auto;
+	height: 2.4375em;
+	width: 10.6875em;
+	text-shadow: none;
+	border-style: none;
+	border-radius: 0.25em;
+	line-height: 1.33;
+	background-color: #f15a29;
+	border-color: #f15a29;
+	color: white;
+	font-size: 1.125em
+}
+button:hover {
+	cursor: pointer;
+	background-color: #d94001;
+}
+.social > li {
+	display: inline-block;
+}
