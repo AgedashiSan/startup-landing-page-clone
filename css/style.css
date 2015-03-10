@@ -68,9 +68,11 @@ body {
 .top-nav > .content,
 .feature > .content {
 	width: 960px;
-	height: 70px;
 	padding: 0 1em;
 	margin: 0 auto;
+}
+.top-nav > .content {
+	height: 70px;
 }
 .logo {
 	height: 4.375em;
@@ -80,7 +82,6 @@ body {
 	margin-top: 1.69em;
 }
 .nav-link > li,
-.subfeature > li,
 .social > li {
 	display: inline-block;
 	list-style: none;
@@ -137,7 +138,7 @@ body {
 	font-size: 3em;
 	color: #1d1e21;
 }
-div.subfeature {
+.subfeature {
 	width: 33.3333333%;
 	display: inline-block;
 	height: 4em;
