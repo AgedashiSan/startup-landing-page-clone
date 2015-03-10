@@ -83,7 +83,7 @@ body {
 	margin-top: 1.69em;
 }
 .nav-link > li,
-.social > li {
+.social-link > li {
 	display: inline-block;
 	list-style: none;
 }
