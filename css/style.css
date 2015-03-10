@@ -66,7 +66,8 @@ body {
 	background-color: white;
 }
 .top-nav > .content,
-.feature > .content {
+.feature > .content,
+.social > .content {
 	width: 960px;
 	padding: 0 1em;
 	margin: 0 auto;
@@ -138,11 +139,17 @@ body {
 	font-size: 3em;
 	color: #1d1e21;
 }
-.subfeature {
+.feature > .subfeature {
 	width: 33.3333333%;
 	display: inline-block;
 	height: 4em;
 }
+.social > .content {
+	border-top: 0.025em solid #999999;
+	background-color: white;
+	margin-top: 4em;
+	padding: 1.5em 0;
+	text-align: center;
 }
 button:hover {
 	cursor: pointer;
