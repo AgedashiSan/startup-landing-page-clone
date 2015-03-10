@@ -48,14 +48,14 @@ table {
 }
 /* Make your sections visible */
 body {
-	background-color: LightGray;
+	/*background-color: LightGray;*/
 }
 div {
 	border: 1px solid Chocolate;
 }
 /* Overall style */
 body {
-	color: #838994;
+	color: #1D1E21;
 	font-size: 1em;
 	font-family: "roboto", sans-serif;
 	letter-spacing: 0.03em;
@@ -73,6 +73,7 @@ body {
 	margin: 0 auto;
 }
 .top-nav > .content {
+	color: #838994;
 	height: 70px;
 }
 .logo {
@@ -112,13 +113,6 @@ body {
 	text-align: center;
 	font-weight: 300;
 }
-.intro > h1 {
-	font-size: 3em;
-}
-.intro > h3 {
-	margin-top: 1em;
-	font-size: 1.563em;
-}
 .cta {
 	display: block;
 	margin: 2em auto;
@@ -145,11 +139,41 @@ body {
 	height: 4em;
 }
 .social > .content {
-	border-top: 0.025em solid #999999;
+	border-top: 0.075em solid #EAEBEC;
 	background-color: white;
 	margin-top: 4em;
 	padding: 1.5em 0;
 	text-align: center;
+}
+.social-link > li {
+	margin: 1em 0.5em;
+	border-radius: 50%;
+	vertical-align: middle;
+	padding-top: 0.5em;
+	width: 2em;
+	height: 1.5em;
+	border: 1px solid #EAEBEC;
+}
+.twitter {
+	color: #55acee;
+}
+.facebook {
+	color: #4c66a4;
+}
+.twitter {
+	color: #3f729b;
+}
+.copyright {
+	color: #838994;
+	font-weight: 100%;
+	font-size: 0.75em;
+}
+h1 {
+	font-size: 3em;
+}
+h3 {
+	margin-top: 1em;
+	font-size: 1.563em;
 }
 button:hover {
 	cursor: pointer;
