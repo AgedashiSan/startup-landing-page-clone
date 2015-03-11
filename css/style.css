@@ -62,25 +62,28 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 /* Sections */
-.top-nav {
-	background-color: white;
-}
 .top-nav > .content,
 .feature > .content,
 .social > .content {
 	width: 960px;
 	margin: 0 auto;
+	background-color: white;
 }
 .top-nav > .content {
+	width: 100%;
+	min-width: 39.375em;
+	position: fixed;
 	padding: 0 1em;
 	color: #838994;
 	height: 70px;
+	border-bottom: 0.075em solid #EAEBEC;
 }
 .logo {
 	height: 4.375em;
 }
 .nav-link {
 	float: right;
+	padding-right: 2em;
 	margin-top: 1.69em;
 }
 .nav-link > li,
